@@ -135,12 +135,6 @@ body {
     var(--donk-dark-green) 0%,
     var(--donk-dark-green) 100%
   );
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/img/bgfinal.webp");
-  background-repeat: repeat;
-  background-attachment: scroll;
-  background-size: 45%;
 }
 
 .center {
@@ -963,12 +957,6 @@ header.masthead {
     var(--donk-dark-green) 0%,
     var(--donk-dark-green) 100%
   );
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/static/img/bgfinal.webp");
-  background-repeat: repeat;
-  background-attachment: scroll;
-  background-size: 45%;
 }
 .overlay-dark {
   background-color: rgba(black, 0.4);

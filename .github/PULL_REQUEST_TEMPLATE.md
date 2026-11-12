@@ -1,6 +1,6 @@
 ## Mod Submission
 
-<!-- Thank you for contributing a mod to the DK64 Recomp Discovery registry! -->
+<!-- Thank you for contributing a mod to the MK64 Recomp Discovery registry! -->
 <!-- Please fill out the relevant section(s) below. -->
 
 ### Mod Info

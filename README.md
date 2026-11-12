@@ -1,6 +1,6 @@
-# DK64 Rekongpiled Website & Mod Registry
+# MK64 Recompiled Website & Mod Registry
 
-This repository hosts the [dk64recomp.com](https://dk64recomp.com) website the project home and mods page for the **DK64 Recompiled** project. However this is also the mod registry backend that publishes the JSON file for the recomp to query.
+This repository hosts the [mk64recomp.com](https://mk64recomp.com) website the project home and mods page for the **MK64 Recompiled** project. However, this is also the mod registry backend that publishes the JSON file for the recomp to query.
 
 ---
 
