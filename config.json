@@ -24,5 +24,39 @@
       "tags": ["accessibility", "qol", "casual"]
     }
   ],
+  "manual_sources": [
+    {
+      "enabled": true,
+      "display_name": "MK64 Reloaded",
+      "file_url": "https://github.com/GhostlyDark/MK64-Reloaded/releases/download/v2026.04.03/mk64-reloaded-v2026.04.03-rt64.rtz",
+      "short_description": "HD Texture Pack",
+      "description": "Download the .rtz file. Launch the game and go into the mods menu. You may drop the file on top of the game window or use the Install Mods button.",
+      "version": "2026.04.03",
+      "id": "mk64_reloaded",
+      "game_id": "mk64",
+      "authors": ["GhostlyDark", "Admentus",
+        "Aghanim",
+        "amxr",
+        "Andrat",
+        "AndresL64",
+        "Darth-Koopa",
+        "DinkyDIC",
+        "Dokotroopi",
+        "Fanamel",
+        "katherinecode",
+        "kette",
+        "Matteoki",
+        "Nerrel",
+        "PaichnidiGCN",
+        "PokeHeadroom",
+        "Retro64",
+        "Sign",
+        "Sunset"],
+      "tags": [
+        "texture-pack"
+      ],
+      "thumbnail_url": "https://evilgames.eu/texture-packs/thumb/mk64-hd.png"
+    }
+  ],
   "output_file": "mods.json"
 }

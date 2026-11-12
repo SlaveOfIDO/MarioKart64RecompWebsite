@@ -256,6 +256,33 @@ def main() -> None:
                 "authors": ", ".join(pkg.get("authors", [])),
             }
 
+    for source in config.get("manual_sources", []):
+        if not source.get("enabled", True):
+            continue
+
+        file_url = source.get("file_url")
+        short_description = source.get("short_description")
+        description = source.get("description")
+        version = source.get("version")
+        mod_id = source.get("id")
+        game_id = source.get("game_id")
+        pkg_tags = source.get("tags")
+        thumbnail_url = source.get("thumbnail_url")
+        display_name = source.get("display_name")
+
+        all_mods[display_name] = {
+            "file_url": file_url,
+            "short_description": short_description,
+            "description": description,
+            "version": version,
+            "id": mod_id,
+            "game_id": game_id,
+            "tags": pkg_tags,
+            "thumbnail_url": thumbnail_url,
+            "authors": ", ".join(source.get("authors", [])),
+        }
+
+
     if args.validate:
         repos = [source["repo"].lower() for source in config.get("github_sources", []) if source.get("enabled", True) and source.get("repo")]
 
